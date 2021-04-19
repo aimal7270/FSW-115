@@ -1,0 +1,52 @@
+{
+    "appetizers":[
+        {"name":"fried pickles",
+        "ingredients": ["breading", "pickles"],
+        "description": "Fried Bread and Butter Pickles"
+        },
+        {"name":"mozzerella sticks",
+         "ingredients": ["breading", "mozzerella cheese"], 
+          "description":"Fried Mozzerella Sticks"
+        }
+    ],
+    "cold sandwiches":[
+        {"name":"ham sandwich",
+            "ingredients": ["bread", "pickles", "ham", "american cheese", "tomato", "lettuce"],
+            "description": "Cold Ham Sandwich"
+            },
+            {"name":"turkey sandwich",
+             "ingredients": ["bread", "pickles", "turkey", "american cheese", "tomato", "lettuce"], 
+              "description":"Cold Turkey Sandwich"
+            }
+    ],
+    "hot sandwiches":[
+        {"name":"grilled cheese",
+            "ingredients": ["bread", "american cheese", "butter"],
+            "description": "Hot Grilled Cheese"
+            },
+            {"name":"Club Sandwich",
+             "ingredients": ["bread", "mozzerella cheese","chicken","lettuce","bacon","tomato","hame", "turkey"], 
+              "description":"Traditional Club sandwich served hot"
+            }
+    ],
+    "desserts":[
+        {"name":"Chocolatechip Cookie",
+            "ingredients": ["chocolatechips","flour","sugar"],
+            "description": "Large Chocolate Chip cookies"
+            },
+            {"name":"Lemon Cheesecake",
+             "ingredients": ["lemon", "creamcheese","flour","grahmn crackers","sugar"], 
+              "description":"One Large slice of Lemon flavored cheesecake"
+            }
+    ],
+    "drinks":[
+        {"name":"sweet tea",
+            "ingredients": ["tea", "sugar"],
+            "description": "Classic Southern Sweet Tea"
+            },
+            {"name":"coffee",
+             "ingredients": ["coffee"], 
+              "description":"Regular Black coffee"
+            }
+    ]   
+}
