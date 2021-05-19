@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+}
+header h1 {
+    background-image: url();
+}
+#move{
+    margin-top: 150px;
+    font-size: 25px;
+}
+button{
+    margin: 15px
+}
+body{
+    text-align: center;
+}
+li{
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+*{
+    background-color: cornsilk;
+}

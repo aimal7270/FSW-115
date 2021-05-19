@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    text-align: center;
+}
+
+.turkey-farm{
+    height: 300px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 50px;
+    margin-top: 25px;
+    
+
+}
+
+.cricket-game{
+    height: 300px;
+    position: relative;
+    top: 600px;
+    margin: 50px
+}
