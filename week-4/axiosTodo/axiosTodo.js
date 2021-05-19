@@ -1,6 +1,6 @@
 // http://api.bryanuniversity.edu/aimalkhan1/list/
 
-axios.get('http://api.bryanuniversity.edu/aimalkhan1/list')
+axios.get('http://api.bryanuniversity.edu/aimalkhan1/list/')
 .then(response => {
     for(let i = 0; i < response.data.length; i++) {
         var item = document.createElement("h1")
@@ -20,4 +20,18 @@ axios.get('http://api.bryanuniversity.edu/aimalkhan1/list')
 
 .catch(error => console.log(error))
 
-const url = 'http://api.bryanuniversity.edu/aimalkhan1/list';
+const url = 'http://api.bryanuniversity.edu/aimalkhan1/list/';
+
+function createToDo(){
+    var item = document.createElement("li")
+    item.textContent = axios.get('http://api.bryanuniversity.edu/nadyajackson/list')
+    document.body.append(newFact)
+    
+
+} 
+
+
+/*if(item.iscomplete === true){
+    strikethrough
+}*/
+
