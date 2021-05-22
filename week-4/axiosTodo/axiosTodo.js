@@ -24,7 +24,7 @@ const url = 'http://api.bryanuniversity.edu/aimalkhan1/list/';
 
 function createToDo(){
     var item = document.createElement("li")
-    item.textContent = axios.get('http://api.bryanuniversity.edu/nadyajackson/list')
+    item.textContent = axios.get('http://api.bryanuniversity.edu/aimalkhan1/list')
     document.body.append(newFact)
     
 
