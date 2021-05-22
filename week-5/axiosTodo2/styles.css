@@ -9,7 +9,9 @@
     height: 200px;
     position: relative;
     top: 600px;
-    margin: 50px
+    margin: 50px;
+    border: blueviolet solid 2px;
+    
 }
 body{
     text-align: center;
