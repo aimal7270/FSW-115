@@ -1,37 +1,34 @@
-// http://api.bryanuniversity.edu/aimalkhan1/list/
+//http://api.bryanuniversity.edu/aimalkhan/list
+const apiUrl = 'http://api.bryanuniversity.edu/aimalkhan1/list/';
 
-axios.get('http://api.bryanuniversity.edu/aimalkhan1/list/')
-.then(response => {
-    for(let i = 0; i < response.data.length; i++) {
-        var item = document.createElement("h1")
-        item.textContent = response.data[i].name
+function letsgo(){
+    for(let i=0; i<5; i++){
+    axios.get(apiUrl)
+    .then(response => {
+           var item = document.createElement("h2")
+           item.textContent = response.data[i].name
 
-        if(response.data[i].isComplete === true) {
+           if(response.data[i].isComplete === true){
             item.style.textDecoration = "line-through"
         }
 
-        document.body.appendChild(item)
-
-        var descript = document.createElement("h4")
-        descript.textContent = response.data[i].description
-        document.body.appendChild(descript)
-    }
-})
-
-.catch(error => console.log(error))
-
-const url = 'http://api.bryanuniversity.edu/aimalkhan1/list/';
-
-function createToDo(){
-    var item = document.createElement("li")
-    item.textContent = axios.get('http://api.bryanuniversity.edu/aimalkhan1/list')
-    document.body.append(newFact)
+        var descript = document.createElement('h5')
+    descript.textContent = response.data[i].description
     
+           console.log(response)
+           document.body.appendChild(item)
+           document.body.appendChild(descript)
 
-} 
+
+        }
+    ).catch(error => console.log(error))
+    }
+
+    
+}
+letsgo();
 
 
-/*if(item.iscomplete === true){
-    strikethrough
-}*/
+
+
 

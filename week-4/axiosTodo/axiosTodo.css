@@ -5,9 +5,11 @@
 
 body{
     text-align: center;
+    background-color: rosybrown;
 }
 
-.turkey-farm{
+#turkey{
+    border: 2px solid red;
     height: 300px;
     float: left;
     margin-left: 200px;
@@ -17,9 +19,11 @@ body{
 
 }
 
-.cricket-game{
+#cricket{
+    border: 2px solid rgb(0, 255, 64);
     height: 300px;
     position: relative;
     top: 600px;
-    margin: 50px
+    margin: 50px;
+    float: right;
 }
