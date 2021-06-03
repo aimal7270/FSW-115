@@ -99,7 +99,7 @@ todoform.addEventListener("submit", enter)
             })
            // todoform.reset()
         }
-        //     .catch(error => console.log(error))
+        //   .catch(error => console.log(error))
         //     console.log(names)
         // const newTodo = {
         //     name: todoform.name.value,
